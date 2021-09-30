@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    
+    width: 100%;
+    background-color: rgb(212, 146, 146);
+    display: inline-block;
+
+}
+
+.card{
+    height: 300px;
+    width: 19%;
+    background-color: rgb(196, 34, 34);
+    display: inline-block;
+}
+
+/* media queries for mobile  */
+
+@media (max-width:420px) {
+
+    .card{
+        width: 100%;
+    }
+
+
+}
